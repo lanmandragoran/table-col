@@ -1,0 +1,90 @@
+html {
+    font-family: sans-serif;
+  }
+  .container {
+    width: 964px;
+    margin: auto;
+    position: relative;
+  }
+  .wrapper {
+    overflow: auto;
+  }
+  table {
+    min-width: 100%;
+    border-spacing: 0;
+  }
+  thead tr {
+    background: #333;
+  }
+  thead tr th {
+    color: #fff;
+  }
+  th,
+  td {
+    padding: 1em;
+    width: 100px;
+    white-space: nowrap;
+    margin: 0;
+    height: 60px;
+    vertical-align: top;
+  }
+  th {
+    text-align: left;
+    border-left: 1px solid #fff;
+  }
+  .minor {
+    background: #efefef;
+  }
+  tbody tr:nth-child(odd) {
+    background: #f6f6f6;
+  }
+  tbody tr:nth-child(odd) .hovered {
+    background: #ff0;
+  }
+  tbody td {
+    border-left: 1px solid #ccc;
+  }
+  tbody .hovered {
+    background: #ff0;
+  }
+  .fixed {
+    background: #eee;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: auto;
+    white-space: normal;
+    height: 60px;
+    margin-left: 0px;
+    box-shadow: 2px 0 3px rgba(0,0,0,0.25);
+  }
+  tbody .hovered .fixed {
+    background: #ff0;
+  }
+  .fixed + td,
+  .fixed + th {
+    padding-left: 250px;
+  }
+  [type="checkbox"] {
+    float: left;
+  }
+  label {
+    overflow: hidden;
+    display: block;
+    padding-left: 10px;
+  }
+  .stop-name {
+    font-weight: bold;
+  }
+  .stop-loc {
+    font-weight: normal;
+  }
+  .stop-no {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+  }
+  .is-hidden {
+    display: none;
+  }
+  
